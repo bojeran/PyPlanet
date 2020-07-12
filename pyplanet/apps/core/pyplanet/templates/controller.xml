@@ -1,5 +1,5 @@
-<quad pos="150 -50" z-index="100" size="15 15" image="http://maniacdn.net//toffe/pyplanet/assets/logo/pyplanet-xs.png"
-      autoscale="0" keepratio="Clip" halign="center" valign="center" opacity="0.4" url="http://pypla.net/" />
+<quad pos="140 -85" z-index="100" size="33 6.25" image="http://dashframe.net/TM_SERVER/img/tom_server_logo.png"
+      autoscale="0" keepratio="Clip" halign="center" valign="center" opacity="1" url="http://github.com" />
 
 {% if game == 'tm' %}
   <label pos="0 -86.5" z-index="100" size="52 5" text="Report issue / suggestion" style="TextButtonNav" scale="0.6"

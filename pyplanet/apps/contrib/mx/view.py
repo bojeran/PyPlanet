@@ -134,6 +134,7 @@ class MxSearchListView(ManualListView):
 		]
 
 	async def action_install(self, user, values, map, *args, **kwargs):
+		logger.info('CUSTOM {} {} {}'.format(user, values, map))
 		await self.app.instance.command_manager.execute(
 			user,
 			'//{} add'.format(self.app.namespace),
